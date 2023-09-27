@@ -6279,8 +6279,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  background-color: #FCB900;
-  
+  background-color:#003658;
 }
 .offcanvas-header .btn-close {
   padding: 0.5rem 0.5rem;
@@ -6293,7 +6292,7 @@ textarea.form-control-lg {
   margin-bottom: 0;
   line-height: 1.5;
   font-size: 20px;
-  color: #000;
+  color: #EBE3D6;
   font-family: "Poppins" !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -6303,7 +6302,7 @@ textarea.form-control-lg {
   flex-grow: 1;
   padding: 1rem 1rem;
   /* overflow-y: auto; */
-  background: #000;
+  background: #EBE3D6;
 }
 
 .offcanvas-start {
@@ -13040,26 +13039,27 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
   }
 
   .img-header{
-    width: 10rem;
+    width: 7rem;
   }
 
   .frame-1-mobile{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FCB900;
+    background-color: #003658;
     width: 100%;
     height: 5rem;
   }
 
   .frame-1-1-mobile > button{
-    border: none;
+    border: solid 1px #EBE3D6;
+    border-radius: 50px;
+    padding: 10px;
     background-color: inherit;
+    background-color: #EBE3D6 ;
   }
-
-  .frame-1-1-mobile > button > img {
-    max-width: 2rem;
-  }
+ 
+ 
 
   .frame-1-3-mobile{
     display: flex;
@@ -13068,17 +13068,24 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
     gap: 1rem;
   }
 
-  .frame-1-3-mobile > a > img{
-    max-width: 2rem;
+  .frame-1-3-mobile > a{
+    border: solid 1px #EBE3D6;
+    border-radius: 50px;
+    padding: 5px;
   }
+
   
   .frame-bttn-mobile{
-    font-family: "Sora" !important;
-    font-weight: 800;
-    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#003658;
+    background-color: #003658;
     border: none;
-    background-color: inherit;
-    color: #000;
+  }
+
+  .frame-bttn-mobile > img{
+    width: 2rem;
   }
 
   .menu{
@@ -13094,14 +13101,15 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
   .mega-menu-item-mobile{
     display: flex;
     justify-content: flex-start;
-    height: 2rem;
+    height: 4rem;
     align-items: center;
     flex-shrink: 0;
     font-family: "Poppins" !important;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 16px;
-    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003658 !important;
     cursor: pointer;
   }
 
@@ -13129,7 +13137,7 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #003658;
     margin-bottom: 1rem;
   }
 
@@ -13137,7 +13145,7 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
     height: 2rem;
     background: inherit;
     border: none !important;
-    color: #fff;
+    color: #003658;
     width: 100%;
   }
 
@@ -13148,16 +13156,16 @@ input[data-js="attributes-toggle"]:checked + .toggle-menu span:nth-child(2) {
   .form-mobile > button{
     border-radius: 30px;
     padding: 0;
-    background-color: #000;
+    background-color: #EBE3D6;
     border: none;
   }
   
 
   .form-mobile > button > span > svg > path{
-    fill:#FCB900;
+    fill: #003658;
   }
 
-
+  
 
 
 }
